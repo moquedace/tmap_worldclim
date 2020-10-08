@@ -257,7 +257,7 @@ print(map_final)
 
 ### Salvando mapa final
 ```{r error=TRUE, message=FALSE, echo=T, eval=F}
-tmap_save(map_pronto, dpi = 600, filename = "../mapas/mapa.jpg", width = 12,
+tmap_save(map_final, dpi = 600, filename = "../mapas/mapa.jpg", width = 12,
           height = 6.75, units = "in")
 ```
 
