@@ -264,6 +264,7 @@ tmap_save(map_final, dpi = 600, filename = "../mapas/mapa.jpg", width = 12,
 <p>&nbsp;</p>
 
 ### Vídeo tutorial
-<iframe width="600" height="337.5" src="https://www.youtube.com/embed/lr5bXEs0IbQ" frameborder="0" allowfullscreen></iframe>
+
+[<img src="thumb_git.jpg" width="600">](https://youtu.be/QaMYz_hfYSQ)
 
 <p>&nbsp;</p>
