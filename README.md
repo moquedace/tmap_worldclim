@@ -98,7 +98,7 @@ plot(futuro)
 
 <p>&nbsp;</p>
 
-### Recortando continente continete africano
+### Recortando continente africano
 Carregando `shapefile` do mundo, filtrando continente africano, alterando a quantidade de `character` para quebra de texto no nome dos países e reprojetando para o datum das imagens WorldClim
 ```{r message=FALSE}
 africa <- world %>% 
