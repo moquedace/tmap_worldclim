@@ -89,11 +89,11 @@ plot(futuro)
 ```
 
 <p align="center">
-<img src="presente.jpg" width="600">
+<img src="presente.jpeg" width="600">
 </p>
 
 <p align="center">
-<img src="futuro.jpg" width="600">
+<img src="futuro.jpeg" width="600">
 </p>
 
 <p>&nbsp;</p>
@@ -112,7 +112,7 @@ Visualizando `shapefile`
 plot(africa$geom)
 ```
 <p align="center">
-<img src="vetor_africa.jpg" width="600">
+<img src="vetor_africa.jpeg" width="600">
 </p>
 
 Recortando imagem 1970 - 2000
@@ -188,7 +188,7 @@ legend <- tm_shape(mask_futuro, raster.downsample = F) + # Dados base para a leg
 print(legend)
 ```
 <p align="center">
-<img src="legend.jpg" width="600">
+<img src="legend.jpeg" width="600">
 </p>
 
 #### Criando mapa de preciptação média 1970 - 2000
@@ -214,7 +214,7 @@ map_presente <- tm_shape(mask_presente, raster.downsample = F, bbox = bbox.afric
 print(map_presente)
 ```
 <p align="center">
-<img src="map_p.jpg" width="600">
+<img src="map_p.jpeg" width="600">
 </p>
 
 #### Criando mapa de preciptação média 2041 - 2060
@@ -240,7 +240,7 @@ map_futuro <- tm_shape(mask_futuro, raster.downsample = F, bbox = bbox.africa) +
 print(map_futuro)
 ```
 <p align="center">
-<img src="map_f.jpg" width="600">
+<img src="map_f.jpeg" width="600">
 </p>
 
 #### Criando mapa final, agrupando `1970 - 2000`, `futuro` e `legenda`
@@ -250,7 +250,7 @@ map_final <- tmap_arrange(map_presente, map_futuro, legend, ncol = 3,
 print(map_final)
 ```
 <p align="center">
-<img src="mapa_git.jpg" width="600">
+<img src="mapa_git.jpeg" width="600">
 </p>
 
 <p>&nbsp;</p>
