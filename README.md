@@ -250,7 +250,7 @@ map_final <- tmap_arrange(map_presente, map_futuro, legend, ncol = 3,
 print(map_final)
 ```
 <p align="center">
-<img src="mapa_git.jpeg" width="600">
+<img src="mapa_git.jpeg" width="800">
 </p>
 
 <p>&nbsp;</p>
