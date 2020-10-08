@@ -88,6 +88,14 @@ plot(presente)
 plot(futuro)
 ```
 
+<p align="center">
+<img src="presente.jpg" width="600">
+</p>
+
+<p align="center">
+<img src="futuro.jpg" width="600">
+</p>
+
 <p>&nbsp;</p>
 
 ### Recortando continente continete africano
@@ -103,6 +111,9 @@ Visualizando `shapefile`
 ```{r message=FALSE, fig.width=10, fig.height=4}
 plot(africa$geom)
 ```
+<p align="center">
+<img src="vetor_africa.jpg" width="600">
+</p>
 
 Recortando imagem 1970 - 2000
 ```{r message=FALSE}
@@ -176,6 +187,9 @@ legend <- tm_shape(mask_futuro, raster.downsample = F) + # Dados base para a leg
                                  big.mark = ".")) # Definindo separador de milhares
 print(legend)
 ```
+<p align="center">
+<img src="legend.jpg" width="600">
+</p>
 
 #### Criando mapa de preciptação média 1970 - 2000
 ```{r message=FALSE, fig.width=10, fig.height=5, warning=FALSE}
@@ -199,6 +213,9 @@ map_presente <- tm_shape(mask_presente, raster.downsample = F, bbox = bbox.afric
              position = c("left", "bottom"), size = 0.64)
 print(map_presente)
 ```
+<p align="center">
+<img src="map_p.jpg" width="600">
+</p>
 
 #### Criando mapa de preciptação média 2041 - 2060
 ```{r message=FALSE, fig.width=10, fig.height=5, warning=FALSE}
@@ -222,6 +239,9 @@ map_futuro <- tm_shape(mask_futuro, raster.downsample = F, bbox = bbox.africa) +
              position = c("left", "bottom"), size = 0.64)
 print(map_futuro)
 ```
+<p align="center">
+<img src="map_f.jpg" width="600">
+</p>
 
 #### Criando mapa final, agrupando `1970 - 2000`, `futuro` e `legenda`
 ```{r message=FALSE, fig.width=10, fig.height=5, warning=FALSE, dpi=300}
@@ -229,6 +249,9 @@ map_final <- tmap_arrange(map_presente, map_futuro, legend, ncol = 3,
                            widths = c(0.45, 0.45, 0.1))
 print(map_final)
 ```
+<p align="center">
+<img src="mapa_git.jpg" width="600">
+</p>
 
 <p>&nbsp;</p>
 
